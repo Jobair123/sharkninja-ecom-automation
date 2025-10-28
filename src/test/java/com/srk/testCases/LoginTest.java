@@ -13,7 +13,7 @@ public class LoginTest extends BaseClass {
 	
 	@Test(dataProvider = "loginData")
     public void tc01(String email, String pass) {
-		driver.get(url);
+		
 		
 		if(i==0) {
 			readyTest();
@@ -28,6 +28,8 @@ public class LoginTest extends BaseClass {
     	AccountPage pa = new AccountPage(driver);
     	
    	    Assert.assertTrue(pa.findName());
+   	    
+   	    driver.get("https://www.sharkninja.com/login");
     	
     }
 	

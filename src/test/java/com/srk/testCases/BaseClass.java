@@ -53,7 +53,7 @@ public void setup() {
 	logger.debug("Log4j is working!");
 	
     driver.manage().window().maximize();
-
+    driver.get(url);
 }
 
 
