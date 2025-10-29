@@ -23,7 +23,7 @@ public class AccountPage {
 	@FindBy(className="account-dashboard__welcome")
 	WebElement name;
 	
-	 public boolean findName() {
+	 public boolean isLogin() {
 		    try {
 		        wait.until(ExpectedConditions.visibilityOf(name));
 		        return name.isDisplayed();
@@ -32,5 +32,6 @@ public class AccountPage {
 		        return false;
 		    }
 		}
+	
 
 }

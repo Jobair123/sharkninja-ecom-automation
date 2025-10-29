@@ -1,5 +1,8 @@
 package com.srk.utilities;
 
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -25,6 +28,12 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         test.get().log(Status.FAIL, "Test Failed: " + result.getThrowable());
+        Object testClass = result.getInstance();
+        WebDriver driver = ((com.srk.testCases.BaseClass) testClass).driver; // Access driver from BaseClass
+
+        String screenshotPath = ScreenshotUtil.captureScreenshot(driver, result.getMethod().getMethodName());
+        test.get().addScreenCaptureFromPath(screenshotPath, "Failed Screenshot");
+
     }
 
     @Override

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class LoginPage {
 	WebDriver driver;
@@ -27,6 +28,15 @@ public class LoginPage {
 	@FindBy(xpath="//*[@id=\"maincontent\"]/div/div/div[4]/form/button")
 	WebElement btn;
 	
+	@FindBy(id="form-email-error")
+	WebElement em_error;
+	
+	@FindBy(id="form-password-error")
+	WebElement pass_error;
+	
+	@FindBy(className="toast-body")
+	WebElement validationerror;
+	
 	public void enterEmail(String e) {
 		wait.until(ExpectedConditions.visibilityOf(email));
 		email.clear();
@@ -38,9 +48,29 @@ public class LoginPage {
 		pass.sendKeys(p);
 	}
 	public void lgBtn() {
-		wait.until(ExpectedConditions.elementToBeClickable(btn));
-		btn.sendKeys(Keys.ENTER);
+		//wait.until(ExpectedConditions.elementToBeClickable(btn));
+		if(btn.isEnabled()) {
+			btn.sendKeys(Keys.ENTER);
+		}
+		
 	}
+	
+	public String isEmailValid() {
+		wait.until(ExpectedConditions.visibilityOf(em_error));
+		return em_error.getText();
+	}
+	
+	public String PassError() {
+		wait.until(ExpectedConditions.visibilityOf(pass_error));
+		return pass_error.getText();
+	}
+	
+	public String invalidCredentials() {
+		wait.until(ExpectedConditions.visibilityOf(validationerror));
+		return validationerror.getText();
+	}
+	
+	
 	
 
 }

@@ -12,7 +12,7 @@ public class LoginTest extends BaseClass {
 	int i=0;
 	
 	@Test(dataProvider = "loginData")
-    public void tc01(String email, String pass) {
+    public void tc01(String email, String pass, String expectedCondition) {
 		
 		
 		if(i==0) {
@@ -25,9 +25,22 @@ public class LoginTest extends BaseClass {
     	lg.enterPass(pass);
     	lg.lgBtn();
     	
-    	AccountPage pa = new AccountPage(driver);
+    	AccountPage ap = new AccountPage(driver);
     	
-   	    Assert.assertTrue(pa.findName());
+    	if(expectedCondition.equals("valid")) {
+    		Assert.assertTrue(ap.isLogin());
+    	} else if(expectedCondition.equals("Email is mandatory.") || expectedCondition.equals("Please enter a valid email address.")) {
+    		String actual = lg.isEmailValid();
+    		Assert.assertEquals(actual,expectedCondition);
+    		
+    	} else {
+    		String actual = lg.invalidCredentials();
+    		Assert.assertEquals(actual, "Your E-mail/Password combination is incorrect. Please try again.");
+    		
+    	}
+    	
+    	
+   	    
    	    
    	    driver.get("https://www.sharkninja.com/login");
     	
@@ -46,13 +59,13 @@ public class LoginTest extends BaseClass {
     @DataProvider(name = "loginData")
     public Object[][] loginCredentials() {
         return new Object[][] {
-            {"jobair@qa.team", "AerdAs23#"},
-            {"admin@qateam", "Admin123!"},
-            {"jobair@qa.team", "Testhj@456"},
-            {"jobair56@qa.team", "AerdAs23#"},
-            {"", ""},
-            {"jobair@qa.team", "AERDAs23#"},
-            {"jobair@qa.team", "AerdAs23#"}
+            {"jobair@qa.team", "AerdAs23#", "valid"},
+            {"admin@qateam", "Admin123!", "Please enter a valid email address."},
+            {"jobair@qa.team", "Testhj@456", "invalid"},
+            {"jobair56@qa.team", "AerdAs23#", "invalid"},
+            {"", "",  "Email is mandatory."},
+            {"jobair@qa.team", "AERDAs23#", "invalid"},
+            {"jobair@qa.team", "AerdAs23#", "valid"}
         };
     }
 }
