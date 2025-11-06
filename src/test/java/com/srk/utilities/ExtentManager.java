@@ -16,18 +16,24 @@ public class ExtentManager {
     }
 
     private static ExtentReports createInstance() {
-        String reportPath = System.getProperty("user.dir") + "/test-output/ExtentReport.html";
+        String reportPath = System.getProperty("user.dir") + "/reports/ExtentReport.html";
 
         ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
         reporter.config().setDocumentTitle("Automation Report");
         reporter.config().setReportName("Functional Test Results");
         reporter.config().setTheme(Theme.STANDARD);
+        
+     // 🔹 Add environment/system info automatically
+        String os = System.getProperty("os.name");
+        String browser = new ReadConfig().getBrowser();
+        String url = new ReadConfig().getUrl();
 
         extent = new ExtentReports();
         extent.attachReporter(reporter);
-        extent.setSystemInfo("Tester", "Jobair Hasnat");
-        extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("Browser", "Chrome");
+        extent.setSystemInfo("OS", os);
+        extent.setSystemInfo("Browser", browser);
+        extent.setSystemInfo("Base URL", url);
+        extent.setSystemInfo("Tester Name", "Jobair Hasnat");
 
         return extent;
     }

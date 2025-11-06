@@ -10,7 +10,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="tc01" invocation-numbers="1 4"/>
+          <include name="tc01" invocation-numbers="4"/>
         </methods>
       </class> <!-- com.srk.testCases.LoginTest -->
     </classes>
