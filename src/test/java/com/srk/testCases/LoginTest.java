@@ -1,5 +1,7 @@
 package com.srk.testCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -7,6 +9,7 @@ import org.testng.annotations.Test;
 import com.srk.pageObject.AccountPage;
 import com.srk.pageObject.IndexPage;
 import com.srk.pageObject.LoginPage;
+import com.srk.utilities.ExcelUtils;
 
 public class LoginTest extends BaseClass {
 	int i=0;
@@ -56,16 +59,23 @@ public class LoginTest extends BaseClass {
 	
 	
 	
-    @DataProvider(name = "loginData")
-    public Object[][] loginCredentials() {
-        return new Object[][] {
-            {"jobair@qa.team", "AerdAs23#", "valid"},
-            {"admin@qateam", "Admin123!", "Please enter a valid email address."},
-            {"jobair@qa.team", "Testhj@456", "invalid"},
-            {"jobair56@qa.team", "AerdAs23#", "invalid"},
-            {"", "",  "Email is mandatory."},
-            {"jobair@qa.team", "AERDAs23#", "invalid"},
-            {"jobair@qa.team", "AerdAs23#", "valid"}
-        };
-    }
+//    @DataProvider(name = "loginData")
+//    public Object[][] loginCredentials() {
+//        return new Object[][] {
+//            {"jobair@qa.team", "AerdAs23#", "valid"},
+//            {"admin@qateam", "Admin123!", "Please enter a valid email address."},
+//            {"jobair@qa.team", "Testhj@456", "invalid"},
+//            {"jobair56@qa.team", "AerdAs23#", "invalid"},
+//            {"", "",  "Email is mandatory."},
+//            {"jobair@qa.team", "AERDAs23#", "invalid"},
+//            {"jobair@qa.team", "AerdAs23#", "valid"}
+//        };
+//    }
+	
+	@DataProvider(name = "loginData")
+	public Object[][] loginCredentials() throws IOException {
+	    String path = System.getProperty("user.dir") + "/src/main/resources/LoginData.xlsx";
+	    return ExcelUtils.getExcelData(path, "Sheet1");
+	}
+
 }
