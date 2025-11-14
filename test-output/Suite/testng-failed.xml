@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.srk.testCases.LoginTest">
+      <class name="com.srk.testCases.SearchTest">
         <methods>
+          <include name="searchTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="tc01"/>
         </methods>
-      </class> <!-- com.srk.testCases.LoginTest -->
+      </class> <!-- com.srk.testCases.SearchTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

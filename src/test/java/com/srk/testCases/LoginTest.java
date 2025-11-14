@@ -57,21 +57,6 @@ public class LoginTest extends BaseClass {
 		pg.clickOnSignin();
 	}
 	
-	
-	
-//    @DataProvider(name = "loginData")
-//    public Object[][] loginCredentials() {
-//        return new Object[][] {
-//            {"jobair@qa.team", "AerdAs23#", "valid"},
-//            {"admin@qateam", "Admin123!", "Please enter a valid email address."},
-//            {"jobair@qa.team", "Testhj@456", "invalid"},
-//            {"jobair56@qa.team", "AerdAs23#", "invalid"},
-//            {"", "",  "Email is mandatory."},
-//            {"jobair@qa.team", "AERDAs23#", "invalid"},
-//            {"jobair@qa.team", "AerdAs23#", "valid"}
-//        };
-//    }
-	
 	@DataProvider(name = "loginData")
 	public Object[][] loginCredentials() throws IOException {
 	    String path = System.getProperty("user.dir") + "/src/main/resources/LoginData.xlsx";

@@ -73,3 +73,200 @@
 [2025-10-29 17:06:05] INFO  BaseClass:50 - url opened
 [2025-11-06 15:53:18] INFO  BaseClass:50 - url opened
 [2025-11-06 18:02:24] INFO  BaseClass:53 - url opened
+[2025-11-12 10:27:13] INFO  BaseClass:12 - url opened
+[2025-11-12 10:27:55] INFO  BaseClass:12 - url opened
+[2025-11-12 10:29:26] INFO  BaseClass:12 - url opened
+[2025-11-12 10:31:27] INFO  BaseClass:12 - url opened
+[2025-11-12 10:33:15] INFO  BaseClass:12 - url opened
+[2025-11-12 10:34:00] INFO  BaseClass:12 - url opened
+[2025-11-12 10:36:08] INFO  BaseClass:12 - url opened
+[2025-11-12 10:36:53] INFO  BaseClass:12 - url opened
+[2025-11-12 16:38:42] INFO  BaseClass:12 - url opened
+[2025-11-12 16:38:50] INFO  BaseClass:18 - search button clicked
+[2025-11-12 21:08:07] INFO  BaseClass:53 - url opened
+[2025-11-12 21:09:01] INFO  BaseClass:13 - url opened
+[2025-11-12 21:09:03] INFO  BaseClass:19 - search button clicked
+[2025-11-12 21:44:27] INFO  BaseClass:53 - url opened
+[2025-11-12 21:45:15] WARN  OPCPackage:450 - Unable to call close() on a package that hasn't been fully opened yet
+[2025-11-12 21:53:12] WARN  OPCPackage:450 - Unable to call close() on a package that hasn't been fully opened yet
+[2025-11-12 21:59:15] INFO  BaseClass:17 - url opened
+[2025-11-12 21:59:23] INFO  BaseClass:23 - search button clicked
+[2025-11-12 21:59:28] INFO  BaseClass:17 - url opened
+[2025-11-12 21:59:39] INFO  BaseClass:17 - url opened
+[2025-11-12 21:59:49] INFO  BaseClass:17 - url opened
+[2025-11-12 22:00:00] INFO  BaseClass:17 - url opened
+[2025-11-12 22:00:10] INFO  BaseClass:17 - url opened
+[2025-11-12 22:04:43] INFO  BaseClass:35 - url opened
+[2025-11-12 22:04:53] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:04:58] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:05:02] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:05:16] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:05:29] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:05:32] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:09:59] INFO  BaseClass:35 - url opened
+[2025-11-12 22:10:05] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:10:12] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:10:15] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:10:28] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:10:42] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:10:45] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:11:58] INFO  BaseClass:36 - url opened
+[2025-11-12 22:12:00] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:12:05] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:12:09] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:12:22] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:12:34] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:12:37] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:18:49] INFO  BaseClass:36 - url opened
+[2025-11-12 22:18:55] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:18:59] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:22:54] INFO  BaseClass:36 - url opened
+[2025-11-12 22:23:01] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:23:06] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:26:18] INFO  BaseClass:36 - url opened
+[2025-11-12 22:26:23] INFO  BaseClass:25 - search button clicked
+[2025-11-12 22:26:29] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:40:30] INFO  BaseClass:45 - url opened
+[2025-11-14 11:40:37] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:40:52] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:41:06] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:41:20] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:46:25] INFO  BaseClass:48 - url opened
+[2025-11-14 11:46:33] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:46:48] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:47:01] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:47:15] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:50:29] INFO  BaseClass:48 - url opened
+[2025-11-14 11:50:39] INFO  BaseClass:48 - url opened
+[2025-11-14 11:50:44] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:50:49] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:51:04] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:54:48] INFO  BaseClass:48 - url opened
+[2025-11-14 11:54:58] INFO  BaseClass:48 - url opened
+[2025-11-14 11:55:09] INFO  BaseClass:48 - url opened
+[2025-11-14 11:55:19] INFO  BaseClass:48 - url opened
+[2025-11-14 11:55:29] INFO  BaseClass:48 - url opened
+[2025-11-14 11:55:39] INFO  BaseClass:48 - url opened
+[2025-11-14 11:55:49] INFO  BaseClass:48 - url opened
+[2025-11-14 11:57:14] INFO  BaseClass:48 - url opened
+[2025-11-14 11:57:21] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:57:25] INFO  BaseClass:25 - search button clicked
+[2025-11-14 11:57:28] INFO  BaseClass:34 - search button clicked
+[2025-11-14 11:57:41] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:01:30] INFO  BaseClass:48 - url opened
+[2025-11-14 12:01:38] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:01:42] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:01:45] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:01:58] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:06:02] INFO  BaseClass:48 - url opened
+[2025-11-14 12:06:11] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:06:15] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:06:18] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:06:31] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:09:15] INFO  BaseClass:48 - url opened
+[2025-11-14 12:09:18] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:09:22] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:09:25] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:09:37] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:18:24] INFO  BaseClass:48 - url opened
+[2025-11-14 12:18:31] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:18:35] INFO  BaseClass:25 - search button clicked
+[2025-11-14 12:18:38] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:18:51] INFO  BaseClass:34 - search button clicked
+[2025-11-14 12:24:59] INFO  BaseClass:49 - url opened
+[2025-11-14 12:25:04] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:25:08] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:25:11] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:25:24] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:27:37] INFO  BaseClass:50 - url opened
+[2025-11-14 12:27:41] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:27:55] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:28:08] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:28:21] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:31:21] INFO  BaseClass:50 - url opened
+[2025-11-14 12:31:26] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:31:30] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:31:33] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:31:46] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:32:32] INFO  BaseClass:50 - url opened
+[2025-11-14 12:32:38] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:32:42] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:32:45] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:32:58] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:33:11] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:33:15] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:36:11] INFO  BaseClass:50 - url opened
+[2025-11-14 12:36:21] INFO  BaseClass:50 - url opened
+[2025-11-14 12:36:23] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:36:27] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:36:40] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:36:53] INFO  BaseClass:24 - search button clicked
+[2025-11-14 12:36:56] INFO  BaseClass:24 - search button clicked
+[2025-11-14 15:14:52] INFO  BaseClass:64 - url opened
+[2025-11-14 15:15:01] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:21:21] INFO  BaseClass:64 - url opened
+[2025-11-14 15:21:23] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:27:03] INFO  BaseClass:64 - url opened
+[2025-11-14 15:27:07] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:29:34] INFO  BaseClass:64 - url opened
+[2025-11-14 15:29:44] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:36:47] INFO  BaseClass:64 - url opened
+[2025-11-14 15:36:53] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:47:29] INFO  BaseClass:64 - url opened
+[2025-11-14 15:47:39] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:51:45] INFO  BaseClass:64 - url opened
+[2025-11-14 15:51:50] INFO  BaseClass:55 - search button clicked
+[2025-11-14 15:56:07] INFO  BaseClass:64 - url opened
+[2025-11-14 15:56:16] INFO  BaseClass:55 - search button clicked
+[2025-11-14 16:00:34] INFO  BaseClass:64 - url opened
+[2025-11-14 16:00:43] INFO  BaseClass:55 - search button clicked
+[2025-11-14 16:23:24] INFO  BaseClass:48 - url opened
+[2025-11-14 16:23:30] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:23:34] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:23:38] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:23:42] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:23:45] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:23:58] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:26:54] INFO  BaseClass:48 - url opened
+[2025-11-14 16:26:58] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:27:03] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:27:06] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:27:11] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:27:17] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:27:32] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:33:04] INFO  BaseClass:48 - url opened
+[2025-11-14 16:33:13] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:33:17] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:33:20] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:33:23] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:33:27] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:33:29] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:53:58] INFO  BaseClass:49 - url opened
+[2025-11-14 16:54:05] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:54:09] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:54:12] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:54:15] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:54:18] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:54:21] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:56:21] INFO  BaseClass:49 - url opened
+[2025-11-14 16:56:28] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:56:32] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:56:35] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:56:38] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:56:41] INFO  BaseClass:24 - search button clicked
+[2025-11-14 16:56:45] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:00:09] INFO  BaseClass:49 - url opened
+[2025-11-14 17:00:15] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:00:19] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:00:22] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:00:25] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:00:28] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:00:31] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:08:12] INFO  BaseClass:53 - url opened
+[2025-11-14 17:08:51] INFO  BaseClass:49 - url opened
+[2025-11-14 17:08:59] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:09:04] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:09:07] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:09:09] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:09:12] INFO  BaseClass:24 - search button clicked
+[2025-11-14 17:09:16] INFO  BaseClass:24 - search button clicked

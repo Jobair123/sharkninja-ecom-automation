@@ -29,6 +29,18 @@ public class IndexPage {
 	@FindBy(xpath="/html/body/div[3]/header/nav/div[1]/div[2]/div[3]/div[3]/div/a/i")
 	WebElement guestUserElement;
 	
+	@FindBy(className="search-toggle")
+	WebElement src;
+	
+	@FindBy(name="q")
+	WebElement search;
+	
+	@FindBy(xpath="//*[@id=\"product-search-results\"]/div[1]/div[2]/div/div[1]/div/div/div[2]/div[1]/a")
+	WebElement product_name;
+	
+	@FindBy(xpath = "//*[@id=\"maincontent\"]/div[2]/div[1]/div/div[2]/span[1]")
+	WebElement error;
+	
 	public void clickOnSignin() {
 		wait.until(ExpectedConditions.elementToBeClickable(guestUserElement));
 		guestUserElement.click();
@@ -44,4 +56,27 @@ public class IndexPage {
 		no_thanks.click();
 	}
 	
+	public void clickOnSearch() {
+		wait.until(ExpectedConditions.elementToBeClickable(src));
+		src.click();
+	}
+	
+	public void search_prod(String value) {
+		wait.until(ExpectedConditions.visibilityOf(search));
+		search.clear();
+		search.sendKeys(value);
+		search.sendKeys(Keys.ENTER);
+	}
+	
+	public String getProductName() {
+		wait.until(ExpectedConditions.visibilityOf(product_name));
+		String getname = product_name.getText();
+		return getname;
+	}
+	public String errorResult() {
+		wait.until(ExpectedConditions.visibilityOf(error));
+		String getError = error.getText().trim();	
+		return getError;
+	}
+	    
 }

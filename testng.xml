@@ -8,6 +8,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.srk.testCases.LoginTest"/>
+      <class name="com.srk.testCases.SearchTest"></class>
     </classes>
     
   </test> <!-- Test -->

@@ -37,6 +37,8 @@ public class LoginPage {
 	@FindBy(className="toast-body")
 	WebElement validationerror;
 	
+
+	
 	public void enterEmail(String e) {
 		wait.until(ExpectedConditions.visibilityOf(email));
 		email.clear();
